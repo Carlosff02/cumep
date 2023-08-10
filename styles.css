@@ -283,6 +283,7 @@
 .par2 {
     font-size: 21px;
     overflow: hidden;
+    
 }
 
 .servicios {
@@ -494,6 +495,8 @@
         padding: 1px;
         font-size:15px;
         text-align:left;
+        margin-left: 20px;
+        margin-right: 20px;
 
     }
 

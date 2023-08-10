@@ -1,0 +1,567 @@
+
+
+@font-face {
+    font-family: Open Sans;
+    src: url(Lato/Lato-Black.ttf);
+    font-size: medium;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+* {
+    font-family: Lato;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    
+    
+
+}
+
+.todaportada {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+
+
+}
+
+.iniciode {
+    width: 100%;
+    background-color: #671827;
+    height: 10px;
+    padding: 0px;
+    margin: 0px;
+
+
+}
+
+.titulo {
+    border-top: 5px;
+    color: green;
+
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.titulo-2 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+
+
+
+
+
+}
+
+.redesociales {
+    height: 50px;
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #671827;
+    border-radius: 10% 20% 30%;
+    overflow: hidden;
+
+
+}
+
+
+
+
+
+.main-link {
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 10px;
+    font-size: 30px;
+    width: 70px;
+    border-radius: 10%;
+    text-decoration: none;
+    background: #3B5998;
+    color: white;
+
+
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.cita {
+    text-align: center;
+    align-items: center;
+    
+}
+
+.facebook:hover {
+    background: white;
+    color: silver;
+}
+
+.twitter {
+    background-color: #00acee;
+}
+
+.twitter:hover {
+    background: white;
+    color: silver;
+}
+
+.linkedin {
+    background-color: #0e76a8;
+}
+
+.linkedin:hover {
+    background: silver;
+}
+
+.instagram {
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+}
+
+.instagram:hover {
+    background: silver;
+    color: white;
+
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(2, 0, 36);
+    background: #20448C;
+    border-left-style: dashed;
+    border-right-style: dashed;
+    border-bottom-style: dashed;
+    border-color: orange;
+
+
+
+
+}
+
+.hero-content {
+    position: relative;
+    color: white;
+    text-align: center;
+    margin: 0.625rem;
+}
+
+.hero-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: white;
+}
+
+.hero-subtitle {
+    font-size: 2rem;
+    font-weight: 200;
+    margin-top: rem;
+}
+
+.hero-button {
+
+    margin-top: 5px;
+    width: 150px;
+    height: 50px;
+    background-color: var(--bg1);
+    color: var(--fg1);
+    border-radius: 10%;
+
+
+
+
+}
+
+.portada {
+
+
+
+    background: #671827;
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+
+
+
+.margen {
+    letter-spacing: 0.5mm;
+    padding-left: 240px;
+    padding-right: 200px;
+    text-align: center;
+
+}
+
+.cita {
+    margin-top: 5px;
+    width: 150px;
+    height: 50px;
+    background-color: var(--bg1);
+    color: var(--fg1);
+    border-radius: 10%;
+    border: 2px solid #ec971f;
+    color: #ec971f;
+    transition: .40s;
+    -webkit-transition: .40s;
+
+}
+
+.cita:hover {
+    background: #ec971f;
+    color: white;
+    transition: .40s;
+    -webkit-transition: .40s;
+}
+
+.imagen {
+
+
+    padding: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+.presentación {
+    padding: 10px;
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.end {
+    margin-left: 40px;
+
+    justify-content: center;
+    font-size: 21px;
+
+}
+
+.jc {
+
+    width: 640px;
+    height: 340px;
+    overflow: hidden;
+
+
+
+}
+
+.par1 {
+    font-size: 21px;
+    overflow: hidden;
+}
+
+.par2 {
+    font-size: 21px;
+    overflow: hidden;
+}
+
+.servicios {
+    font-weight: bold;
+}
+
+.adicionales {
+    font-weight: bold;
+
+}
+
+@media (min-width:785px) {
+
+    .final {
+        width: 100%;
+        height: 340px;
+
+        font-size: 21px;
+
+
+
+        background-color: #20448C;
+        margin-bottom: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+
+    }
+
+    .imgfinal {
+        width: 360px;
+        margin-bottom: 10px;
+
+
+    }
+
+    .textofinal {
+        color: white;
+
+        margin-top: auto;
+        text-align: center;
+        margin-bottom: 70px;
+        margin-left: 90px;
+    }
+}
+
+.linkwhite {
+    color: white;
+    text-decoration: none;
+}
+
+.linkwhite:hover {
+    color: orange;
+}
+
+.arrowedit {
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 10px;
+    font-size: 30px;
+    width: 40px;
+    border-radius: 10%;
+    text-decoration: none;
+    background: #3B5998;
+    color: white;
+
+    display: flex;
+    text-align: center;
+
+}
+
+.arrowedit:hover {
+    background: orange;
+}
+
+@media (min-width:785px) {
+
+    .number {
+        margin-left: -303px;
+        margin-top: 20px;
+    }
+
+}
+
+.line {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.cumedic {
+    font-size: 40px;
+    -webkit-text-stroke: 0.2px #77b377;
+}
+
+.Salud {
+    width: 80px;
+    height: 50%px;
+    margin-bottom: 20px;
+}
+
+.containers {
+    background-color: #671827;
+    border-left-style: dashed;
+    border-right-style: dashed;
+    border-top-style: dashed;
+    border-color: orange;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+.par2 {
+    letter-spacing: 0.5mm;
+    padding-left: 240px;
+    padding-right: 200px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    ;
+}
+
+@media (min-width:785px) {
+    hr {
+        letter-spacing: 0.5mm;
+        padding-left: 240px;
+        padding-right: 200px;
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        ;
+        margin-left: 260px;
+        margin-right: 200px;
+    }
+}
+
+@media (max-width:785px) {
+
+    .jc {
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: center;
+        font-size: 2px;
+
+    }
+
+    .margen {
+
+        text-align: center;
+        letter-spacing: 0.01mm;
+        font-size: 1px;
+
+
+        margin-left: 2%;
+        margin-right: 2%;
+        padding: 3px;
+
+
+
+    }
+
+    .part1 {
+        font-size: 2px;
+        font-style: italic;
+        letter-spacing: 0.01mm;
+        padding: 1px;
+
+    }
+
+    .hr {
+
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: left;
+        margin-top: 10%;
+        margin-bottom: 0%;
+        margin-left: 7%;
+        margin-right: 9%;
+    }
+
+    .iniciode {
+        width: 100%;
+    }
+
+    .hero {
+        width: 100%;
+        height: 100%;
+    }
+
+    .par2 {
+        text-align: center;
+        letter-spacing: 0.01mm;
+
+
+
+        margin-left: 2%;
+        margin-right: 2%;
+        padding: 3px;
+        margin-top: 1%;
+        margin-bottom: 1%;
+
+
+
+        padding: 1px;
+
+    }
+
+    .final {
+        width: 100%;
+        height: 200%;
+        background-color: #20448C;
+        text-align: left;
+    }
+
+    .location {
+        margin-bottom: 4px;
+
+    }
+
+    .number {
+        margin-top: 1%;
+        font-size: medium;
+
+        text-align: left;
+
+    }
+
+    .textofinal {
+        padding: 40px;
+
+        font-size: medium;
+    }
+
+    .imgfinal {
+        width: 250px;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    .product {
+        position: relative;
+        overflow: hidden;
+        padding: 0px;
+
+    }
+
+
+    .product-category {
+        padding: 0;
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 40px;
+        text-transform: capitalize;
+        text-align: left;
+        margin-top: 50px;
+
+    }
+
+    .end {
+        margin-top: 0%;
+
+    }
+
+    .product-container {
+        padding: 0 2vh;
+        display: flex;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+      }
+
+}
+
+@media (min-height:842px) {
+    
+}

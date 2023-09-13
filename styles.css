@@ -283,7 +283,6 @@
 .par2 {
     font-size: 21px;
     overflow: hidden;
-    
 }
 
 .servicios {
@@ -408,7 +407,7 @@
     ;
 }
 
-@media (min-width:785px) {
+@media (min-width:896px) {
     hr {
         letter-spacing: 0.5mm;
         padding-left: 240px;
@@ -421,8 +420,23 @@
         margin-right: 200px;
     }
 }
+@media (min-width:786px),(max-with:887) {
+    .final{
+        width: 100%;
+        height: 200%;
+        background-color: #20448C;
+        text-align: left;
+        
+    }
+    
+    .number{
+        margin-left: 0.07%;
+            
+    }
 
-@media (max-width:785px) {
+}
+
+@media (max-width:896px) {
 
     .jc {
         width: 100%;
@@ -439,7 +453,7 @@
 
         text-align: center;
         letter-spacing: 0.01mm;
-        font-size: 1px;
+        
 
 
         margin-left: 2%;
@@ -490,7 +504,7 @@
 
 
         padding: 1px;
-        font-size:16px;
+        font-size: 16px;
         
         margin-left: 20px;
         margin-right: 20px;
